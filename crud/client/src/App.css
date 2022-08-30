@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form input{
+  height: 60px;
+  width: 300px;
+  margin: 10px;
+  font-size: 25px;
+  padding: 2px 20px;
+}
+
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.card{
+  flex: 1 0 33%;
+  height: 170px;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+#inputText{
+  width: 100px;
+  height: 20px;
+  padding: 0;
+  font-size: 16px;
+}

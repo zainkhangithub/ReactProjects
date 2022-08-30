@@ -1,0 +1,31 @@
+.calculator{
+    max-width: 250px;
+    margin: 50px auto;
+}
+.calculator div{
+    display:  flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+input{
+    border: 1px solid #e6e6e6;
+    width: 100%;
+    background-color: #fafafa;
+    height: 45px;
+    margin-bottom: 2px;
+    padding: 5px 10px;
+    font-size: 17px;
+    outline: none;
+}
+button{
+    height: 60px;
+    width: 60px;
+    background-color: #fafafa;
+    border: 1px solid #e6e6e6;
+    cursor: pointer;
+    font-size: 14px;
+}
+button:hover{
+    background-color: #e6e6e6;
+}
